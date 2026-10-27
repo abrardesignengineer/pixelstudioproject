@@ -8,7 +8,10 @@ body{
   flex: 1;
 }
 
-h1{font-size: 5rem;}
+h1{
+    font-size: 5rem;
+margin-top: 10px;
+}
 
 footer {
   text-align: left;
@@ -41,11 +44,14 @@ footer {
   .logo {
     font-size: 5rem;
     text-align: center;
+    margin-bottom: 10px;
   }
 
  @media (max-width: 680px) {
   .logo {
-    width: 100px;
+    font-size: 3rem;
+    text-align: center;
+    
   }
 
   h1 {
